@@ -1,5 +1,7 @@
 FROM ubuntu:latest
 
+MAINTAINER Jd Daniel <dodomeki@gmail.com>
+
 RUN apt-get update          \
   && apt-get -y upgrade     \
   && apt-get -y autoclean   \

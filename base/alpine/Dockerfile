@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-MAINTAINER Jd Daniel <dodomkei@gmail.com>
+MAINTAINER Jd Daniel <dodomeki@gmail.com>
 
 RUN  apk add --update git curl bash                                                           \
   && curl -o /usr/bin/gosu -L https://github.com/tianon/gosu/releases/download/1.7/gosu-amd64 \
